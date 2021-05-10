@@ -6,7 +6,6 @@ import { Link, NavLink, withRouter } from "react-router-dom";
 const Navbar = (props) => {
 
   return (
-    
     <nav className="nav-wrapper red darken-3">
       <div className="container">
         {/* when we use link instead of a tag we prevent requesting the page from the server
@@ -19,7 +18,7 @@ const Navbar = (props) => {
           <li><NavLink to='/contact'>Contact</NavLink></li>
         </ul>
       </div>
-    </nav>
+    </nav> 
   )
 }
 
