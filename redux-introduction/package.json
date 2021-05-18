@@ -1,0 +1,14 @@
+{
+  "name": "redux-introduction",
+  "version": "1.0.0",
+  "description": "Learn fundamentals of redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "khadija-zekraoui",
+  "license": "ISC",
+  "dependencies": {
+    "redux": "^4.1.0"
+  }
+}
