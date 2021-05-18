@@ -8,10 +8,12 @@ import Contact from "./components/Contact";
 export default class App extends Component {
   render() {
     return (
+      //surround the app with BrowserRouter to use Router functionalities
       <BrowserRouter>
         <div>
           <Navbar />
           {/* all components with route receive information about routing through props */}
+          {/* set routes to use them in the app */}
           <Route exact path='/' component={Home} />
           <Route path='/about' component={About} />
           <Route path='/contact' component={Contact} />

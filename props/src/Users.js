@@ -4,7 +4,7 @@ export default class users extends Component {
     render() {
 
         const { users, message } = this.props;
-        const ninjaList = users.map(user => {
+        const usersList = users.map(user => {
             return (
                 <div key={user.id}>
                     <div> Name : {user.name}</div>
@@ -18,7 +18,7 @@ export default class users extends Component {
         return (
            <div>
                 <h1>{ message }</h1>
-                { ninjaList } 
+                { usersList } 
             </div>
         )
     }
