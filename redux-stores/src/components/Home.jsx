@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import reactImg from '../react.png';
-import { connect } from 'react-redux'
+import { connect } from 'react-redux';
 
 
 class Home extends Component {
@@ -45,4 +45,5 @@ const mapStateToProps = (state) => {
 
 //connect return higher-order component 
 //it connects this component with the store.
+//it uses mapStateToProps to retrieve data from the store and attach it to props
 export default connect(mapStateToProps)(Home);
